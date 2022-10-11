@@ -17,6 +17,8 @@ curl https://bun.sh/install | bash
 
 export_env_dir $3
 
+cd $1
+
 export BUN_INSTALL="$HOME/.bun" 
 export PATH="$BUN_INSTALL/bin:$PATH" 
 
