@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -X
 
 export_env_dir() {
   env_dir=$1
