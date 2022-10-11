@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -f $1/package.json ]; then
+  echo "bun.sh"
+  exit 0
+else 
+  exit 1
+fi

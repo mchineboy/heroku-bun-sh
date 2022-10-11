@@ -1,0 +1,8 @@
+#!/bin/sh
+
+export PATH=$PATH:/usr/local/bin
+cat << EOF
+---
+default_process_types:
+  web: bun run bunserve
+EOF
